@@ -1,24 +1,53 @@
-#dingus {
-	text-align: center;
+#meem {
+	align-content: left;
+	animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+#navbar {
+	text-align: left;
 	background-color: white;
+	font-family: monospace ;
+	color: black;
+	font-size: 20px;
+
+}
+
+#dingus {
+	font-family:cursive;
+	text-align: left;
+	background-color:black;
+	color: white;
 }
 
 #one {
+	text-align: left;
 font-family:Lucida Console, monospace;
-background-color: white;
-color:rgb(0, 0, 0);
+background-color: black;
+color:white;
 }
 
 #two {
 font-family:Lucida Console, monospace;
-background-color: white;
+background-color: black;
 color:rgb(255, 0, 0);
 }
 
-body {
+a {
+	color:white;
+}
 
-text-align: center;
-background-image: url("img/Annotation 2024-08-28 155922.png");
+body {
+text-align: left;
 background-color:rgb(0, 0, 0);
 background-size: cover
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
